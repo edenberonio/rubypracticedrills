@@ -34,4 +34,15 @@ array = []
  end
 
  #You realize one of the performing artists in your list is no longer a favourite. Remove one of them from the array.
- 
+ live_fav = ["Anderson Paak" , "Jimi Hendrix" , "The Weeknd"]
+
+ live_fav.delete("Jimi Hendrix")
+
+ puts live_fav
+
+
+#HELP?
+ #Pick a city in your city population hash and change its population.
+ cities = {toronto:2.615, newyork: 8.406, paris:2.244, san_francisco:837.442}
+
+puts cities.update(cities){:toronto}

@@ -14,6 +14,5 @@ puts cities[:toronto]
 #Print out a sentence about each item in the array of performing artists
 live_fav = ["Anderson Paak" , "Jimi Hendrix" , "The Weeknd"]
 
-live_fav.each do |artist|
+live_fave.each do |artist|
   puts "I think #{artist} is great."
-end
